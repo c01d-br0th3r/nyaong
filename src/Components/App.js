@@ -1,9 +1,9 @@
 import React from "react";
+import Router from "./Route";
+import "../reset.css";
 
-class App extends React.Component {
-  render() {
-    return <div>Hello cat</div>;
-  }
-}
+const App = () => {
+  return <Router />;
+};
 
 export default App;
